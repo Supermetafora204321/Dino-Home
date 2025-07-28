@@ -12,6 +12,7 @@ import de from './translations/de.json';
 import en from './translations/en.json';
 import es from './translations/es.json';
 import es419 from './translations/es-419.json';
+import pl from './translations/pl.json'
 
 import GUI from './containers/gui.jsx';
 
@@ -20,6 +21,7 @@ const messages = {
     "en": en,
     "es": es,
     "es-419": es419
+    "pl": pl
 };
 
 const chosenLocale = localStorage.getItem('chosenLocale');
